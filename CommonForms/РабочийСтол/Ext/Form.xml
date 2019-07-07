@@ -12,6 +12,7 @@
 					<v8:content>Группа шапка</v8:content>
 				</v8:item>
 			</Title>
+			<TitleFont ref="style:NormalTextFont" height="11" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -20,13 +21,15 @@
 			</ToolTip>
 			<GroupHorizontalAlign>Center</GroupHorizontalAlign>
 			<Group>Vertical</Group>
+			<HorizontalAlign>Center</HorizontalAlign>
 			<Representation>None</Representation>
 			<ShowTitle>false</ShowTitle>
+			<BackColor>style:FieldSelectionBackColor</BackColor>
 			<ExtendedTooltip name="ГруппаШапкаРасширеннаяПодсказка" id="29"/>
 			<ChildItems>
 				<PictureDecoration name="Логотип" id="25">
-					<Width>10</Width>
-					<Height>4</Height>
+					<Width>14</Width>
+					<Height>6</Height>
 					<Title formatted="false">
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -35,24 +38,29 @@
 					</Title>
 					<PictureSize>Proportionally</PictureSize>
 					<Picture>
-						<xr:Ref>CommonPicture.Лого</xr:Ref>
+						<xr:Ref>CommonPicture.ОбщаяКартинка1</xr:Ref>
 						<xr:LoadTransparent>true</xr:LoadTransparent>
 					</Picture>
 					<ContextMenu name="ЛоготипКонтекстноеМеню" id="26"/>
 					<ExtendedTooltip name="ЛоготипРасширеннаяПодсказка" id="27"/>
 				</PictureDecoration>
-				<LabelDecoration name="Декорация1" id="30">
-					<Title formatted="false">
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Добро пожаловать</v8:content>
-						</v8:item>
-					</Title>
-					<ContextMenu name="Декорация1КонтекстноеМеню" id="31"/>
-					<ExtendedTooltip name="Декорация1РасширеннаяПодсказка" id="32"/>
-				</LabelDecoration>
 			</ChildItems>
 		</UsualGroup>
+		<LabelDecoration name="Декорация1" id="30">
+			<AutoMaxWidth>false</AutoMaxWidth>
+			<HorizontalStretch>true</HorizontalStretch>
+			<TextColor>style:FieldSelectionBackColor</TextColor>
+			<Font ref="style:NormalTextFont" height="10" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
+			<Title formatted="false">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Добро пожаловать</v8:content>
+				</v8:item>
+			</Title>
+			<HorizontalAlign>Center</HorizontalAlign>
+			<ContextMenu name="Декорация1КонтекстноеМеню" id="31"/>
+			<ExtendedTooltip name="Декорация1РасширеннаяПодсказка" id="32"/>
+		</LabelDecoration>
 		<UsualGroup name="ГруппаЛогин" id="3">
 			<Title>
 				<v8:item>
@@ -105,8 +113,30 @@
 							<ContextMenu name="СНИЛСКонтекстноеМеню" id="10"/>
 							<ExtendedTooltip name="СНИЛСРасширеннаяПодсказка" id="11"/>
 						</InputField>
+						<LabelDecoration name="ВойтиДекорация" id="50">
+							<Height>2</Height>
+							<HorizontalStretch>true</HorizontalStretch>
+							<TextColor>style:FieldBackColor</TextColor>
+							<Font ref="style:NormalTextFont" height="10" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
+							<Title formatted="false">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Войти</v8:content>
+								</v8:item>
+							</Title>
+							<Hyperlink>true</Hyperlink>
+							<HorizontalAlign>Center</HorizontalAlign>
+							<VerticalAlign>Center</VerticalAlign>
+							<BackColor>style:FieldSelectionBackColor</BackColor>
+							<ContextMenu name="ВойтиДекорацияКонтекстноеМеню" id="51"/>
+							<ExtendedTooltip name="ВойтиДекорацияРасширеннаяПодсказка" id="52"/>
+							<Events>
+								<Event name="Click">Войти</Event>
+							</Events>
+						</LabelDecoration>
 						<Button name="Войти" id="1">
 							<Type>UsualButton</Type>
+							<Visible>false</Visible>
 							<CommandName>Form.Command.Войти</CommandName>
 							<ExtendedTooltip name="ВойтиРасширеннаяПодсказка" id="2"/>
 						</Button>
@@ -132,21 +162,130 @@
 					<ChildItems>
 						<Button name="Авторизован1" id="14">
 							<Type>UsualButton</Type>
+							<Visible>false</Visible>
 							<CommandName>Form.Command.Авторизован1</CommandName>
 							<ExtendedTooltip name="Авторизован1РасширеннаяПодсказка" id="15"/>
 						</Button>
 						<Button name="Авторизован2" id="16">
 							<Type>UsualButton</Type>
+							<Visible>false</Visible>
 							<CommandName>Form.Command.Авторизован2</CommandName>
 							<ExtendedTooltip name="Авторизован2РасширеннаяПодсказка" id="17"/>
 						</Button>
 						<Button name="Авторизован3" id="18">
 							<Type>UsualButton</Type>
+							<Visible>false</Visible>
 							<CommandName>Form.Command.Авторизован3</CommandName>
 							<ExtendedTooltip name="Авторизован3РасширеннаяПодсказка" id="19"/>
 						</Button>
+						<LabelDecoration name="АвторизованДекорация1" id="41">
+							<Height>2</Height>
+							<HorizontalStretch>true</HorizontalStretch>
+							<TextColor>style:FieldBackColor</TextColor>
+							<Font ref="style:NormalTextFont" height="10" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
+							<Title formatted="false">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Авторизован1</v8:content>
+								</v8:item>
+							</Title>
+							<Hyperlink>true</Hyperlink>
+							<HorizontalAlign>Center</HorizontalAlign>
+							<VerticalAlign>Center</VerticalAlign>
+							<BackColor>style:FieldSelectionBackColor</BackColor>
+							<ContextMenu name="АвторизованДекорация1КонтекстноеМеню" id="42"/>
+							<ExtendedTooltip name="АвторизованДекорация1РасширеннаяПодсказка" id="43"/>
+							<Events>
+								<Event name="Click">Авторизован1</Event>
+							</Events>
+						</LabelDecoration>
+						<LabelDecoration name="АвторизованДекорация2" id="44">
+							<Height>2</Height>
+							<HorizontalStretch>true</HorizontalStretch>
+							<TextColor>style:FieldBackColor</TextColor>
+							<Font ref="style:NormalTextFont" height="10" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
+							<Title formatted="false">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Авторизован2</v8:content>
+								</v8:item>
+							</Title>
+							<Hyperlink>true</Hyperlink>
+							<HorizontalAlign>Center</HorizontalAlign>
+							<VerticalAlign>Center</VerticalAlign>
+							<BackColor>style:FieldSelectionBackColor</BackColor>
+							<ContextMenu name="АвторизованДекорация2КонтекстноеМеню" id="45"/>
+							<ExtendedTooltip name="АвторизованДекорация2РасширеннаяПодсказка" id="46"/>
+							<Events>
+								<Event name="Click">Авторизован2</Event>
+							</Events>
+						</LabelDecoration>
+						<LabelDecoration name="АвторизованДекорация3" id="47">
+							<Height>2</Height>
+							<HorizontalStretch>true</HorizontalStretch>
+							<TextColor>style:FieldBackColor</TextColor>
+							<Font ref="style:NormalTextFont" height="10" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
+							<Title formatted="false">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Авторизован3</v8:content>
+								</v8:item>
+							</Title>
+							<Hyperlink>true</Hyperlink>
+							<HorizontalAlign>Center</HorizontalAlign>
+							<VerticalAlign>Center</VerticalAlign>
+							<BackColor>style:FieldSelectionBackColor</BackColor>
+							<ContextMenu name="АвторизованДекорация3КонтекстноеМеню" id="48"/>
+							<ExtendedTooltip name="АвторизованДекорация3РасширеннаяПодсказка" id="49"/>
+							<Events>
+								<Event name="Click">Авторизован3</Event>
+							</Events>
+						</LabelDecoration>
+						<LabelDecoration name="НовыйПациентДекорация" id="38">
+							<Height>2</Height>
+							<HorizontalStretch>true</HorizontalStretch>
+							<TextColor>style:FieldBackColor</TextColor>
+							<Font ref="style:NormalTextFont" height="10" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
+							<Title formatted="false">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Новый пациент</v8:content>
+								</v8:item>
+							</Title>
+							<Hyperlink>true</Hyperlink>
+							<HorizontalAlign>Center</HorizontalAlign>
+							<VerticalAlign>Center</VerticalAlign>
+							<BackColor>style:FieldSelectionBackColor</BackColor>
+							<ContextMenu name="НовыйПациентДекорацияКонтекстноеМеню" id="39"/>
+							<ExtendedTooltip name="НовыйПациентДекорацияРасширеннаяПодсказка" id="40"/>
+							<Events>
+								<Event name="Click">НовыйПациент</Event>
+							</Events>
+						</LabelDecoration>
+						<LabelDecoration name="ЗабытьВсехДекорация" id="35">
+							<Height>2</Height>
+							<HorizontalStretch>true</HorizontalStretch>
+							<TextColor>style:FieldBackColor</TextColor>
+							<Font ref="style:NormalTextFont" height="10" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
+							<Title formatted="false">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Забыть всех</v8:content>
+								</v8:item>
+							</Title>
+							<Hyperlink>true</Hyperlink>
+							<HorizontalAlign>Center</HorizontalAlign>
+							<VerticalAlign>Center</VerticalAlign>
+							<BackColor>style:FieldSelectionBackColor</BackColor>
+							<ContextMenu name="ЗабытьВсехДекорацияКонтекстноеМеню" id="36"/>
+							<ExtendedTooltip name="ЗабытьВсехДекорацияРасширеннаяПодсказка" id="37"/>
+							<Events>
+								<Event name="Click">ЗабытьВсех</Event>
+							</Events>
+						</LabelDecoration>
 						<Button name="НовыйПациент" id="20">
 							<Type>UsualButton</Type>
+							<Visible>false</Visible>
 							<CommandName>Form.Command.НовыйПациент</CommandName>
 							<Title>
 								<v8:item>
@@ -158,6 +297,7 @@
 						</Button>
 						<Button name="ЗабытьВсех" id="33">
 							<Type>UsualButton</Type>
+							<Visible>false</Visible>
 							<CommandName>Form.Command.ЗабытьВсех</CommandName>
 							<ExtendedTooltip name="ЗабытьВсехРасширеннаяПодсказка" id="34"/>
 						</Button>

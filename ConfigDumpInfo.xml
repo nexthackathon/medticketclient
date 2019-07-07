@@ -12,15 +12,17 @@
 		<Metadata name="Catalog.Пациенты.ManagerModule" id="5e009b9d-e7ff-4944-b66f-fb2a3aae7950.3" configVersion="c168088da1c47047b30a7fc59041199000000000"/>
 		<Metadata name="CommonForm.НастройкиСистемы" id="f1f76a5e-b678-4635-9f21-7e29e93a66c3" configVersion="c69a0f43b9f0434b83b832e5f6fe264400000000"/>
 		<Metadata name="CommonForm.НастройкиСистемы.Form" id="f1f76a5e-b678-4635-9f21-7e29e93a66c3.0" configVersion="55104f1974a6194abbd2e2393eeddc5800000000"/>
-		<Metadata name="CommonForm.РабочийСтол" id="f140d559-8558-4e3b-ad0b-6c0cf02da123" configVersion="5fd1a2502c164442aac060e11ae2792400000000"/>
-		<Metadata name="CommonForm.РабочийСтол.Form" id="f140d559-8558-4e3b-ad0b-6c0cf02da123.0" configVersion="f8113fe5a015fa4c90fe74d70f52fb5400000000"/>
+		<Metadata name="CommonForm.РабочийСтол" id="f140d559-8558-4e3b-ad0b-6c0cf02da123" configVersion="be3be45d1142a645b8a565a267f32dc800000000"/>
+		<Metadata name="CommonForm.РабочийСтол.Form" id="f140d559-8558-4e3b-ad0b-6c0cf02da123.0" configVersion="347b8b359e06134ba6d14b4b9446664c00000000"/>
 		<Metadata name="CommonModule.ОбменДаннымиПовтИсп" id="831b4788-83d4-4ad1-9f3b-46caa36ea08e" configVersion="f9c3c988b39d45429a099b42d2f098bd00000000"/>
 		<Metadata name="CommonModule.ОбменДаннымиПовтИсп.Module" id="831b4788-83d4-4ad1-9f3b-46caa36ea08e.0" configVersion="9dde8661926912479a08758a74c7d83000000000"/>
 		<Metadata name="CommonModule.ОперацииWS" id="8c59241c-e7fa-412b-8767-3ecbb61b7a7b" configVersion="284295ce9149154dad1aba90e141e30e00000000"/>
 		<Metadata name="CommonModule.ОперацииWS.Module" id="8c59241c-e7fa-412b-8767-3ecbb61b7a7b.0" configVersion="555662a08beb03438d4614e3b0cd28f000000000"/>
 		<Metadata name="CommonPicture.Лого" id="5cb5398b-7273-4b27-b174-1d747c54f70b" configVersion="4e24ac12283e354690afbd8ea224705400000000"/>
 		<Metadata name="CommonPicture.Лого.Picture" id="5cb5398b-7273-4b27-b174-1d747c54f70b.0" configVersion="71883ac4b8e46f418504268a4d8a5fea00000000"/>
-		<Metadata name="Configuration.Хакатон_Клиент" id="6ae30800-265a-4508-8fa9-3203840d6ab2" configVersion="80e0ecba1d36a54e8c16c47c2421a09400000000"/>
+		<Metadata name="CommonPicture.ОбщаяКартинка1" id="31cab5f2-1b63-4a96-b342-1f66bb76e5aa" configVersion="9039d48acc29ce458b51eed4baf0474e00000000"/>
+		<Metadata name="CommonPicture.ОбщаяКартинка1.Picture" id="31cab5f2-1b63-4a96-b342-1f66bb76e5aa.0" configVersion="ce4d82cf3f16ac4e82153940052d14c200000000"/>
+		<Metadata name="Configuration.Хакатон_Клиент" id="6ae30800-265a-4508-8fa9-3203840d6ab2" configVersion="504fb2e93c6eb94d87ab9432c8080f3100000000"/>
 		<Metadata name="Configuration.Хакатон_Клиент.HomePageWorkArea" id="93c9a6e2-ae1e-4652-8403-112203a92329.8" configVersion="95cd2c238816b74fb6f0f0f62dd60ade00000000"/>
 		<Metadata name="Configuration.Хакатон_Клиент.SessionModule" id="93c9a6e2-ae1e-4652-8403-112203a92329.7" configVersion="fabcc6017f973547aa22bc7ac0f63bd500000000"/>
 		<Metadata name="Constant.АдресСервераСервиса" id="3ee697e8-4d1a-4ba3-b069-5473dc809ce4" configVersion="748b8d074eaae94b868e80156a6c249400000000"/>
@@ -28,19 +30,21 @@
 		<Metadata name="Constant.ПарольКСервису" id="aee19eb3-2f51-4f5b-a774-4159cb2d39de" configVersion="4c7a106dd30f0746902ca5eb5b368d0c00000000"/>
 		<Metadata name="Constant.ПользовательСервиса" id="d5b4c31f-667d-40b7-acaa-3da3e7963ee0" configVersion="01fbfe823723514295cffdd5015ffb2100000000"/>
 		<Metadata name="DataProcessor.АРМ" id="0d85db3b-8f8a-479d-bea6-6a9d49c07c6b" configVersion="d8f9008a32f14e4cbf05ba53b6f3f0e900000000"/>
-		<Metadata name="DataProcessor.АРМ.Form.ФормаВыбораОпераций" id="ce009c7e-9ab3-4dca-b01e-4687421e349b" configVersion="75b12089ab251843b495ff23ee1afdd500000000"/>
-		<Metadata name="DataProcessor.АРМ.Form.ФормаВыбораОпераций.Form" id="ce009c7e-9ab3-4dca-b01e-4687421e349b.0" configVersion="229c82044f984047b0b6775f8f8b370c00000000"/>
-		<Metadata name="DataProcessor.АРМ_ЗаписьКВрачу" id="d247b68b-7b6c-4cb6-9d4c-6dba9df94745" configVersion="a2c39ab441ce7a40a95e905c9e87209700000000"/>
-		<Metadata name="DataProcessor.АРМ_ЗаписьКВрачу.Form.ФормаВыбораВидаЗаписи" id="104a8463-27e1-4c62-a06c-826cb9c93d93" configVersion="aefc803234350a43a484b64f463c141700000000"/>
-		<Metadata name="DataProcessor.АРМ_ЗаписьКВрачу.Form.ФормаВыбораВидаЗаписи.Form" id="104a8463-27e1-4c62-a06c-826cb9c93d93.0" configVersion="a62e145a07c10d4e99891ad4c465c21a00000000"/>
-		<Metadata name="DataProcessor.АРМ_ЗаписьКВрачу.Form.ФормаЗаписиПоВрачу" id="81f9a044-bab0-4006-94ae-d8a78c345340" configVersion="cc9f0d5eaf8cb44fb8f0e0533c86aa7f00000000"/>
-		<Metadata name="DataProcessor.АРМ_ЗаписьКВрачу.Form.ФормаЗаписиПоВрачу.Form" id="81f9a044-bab0-4006-94ae-d8a78c345340.0" configVersion="a6e501b4d25ac145ae4f261b3683196700000000"/>
-		<Metadata name="DataProcessor.АРМ_ЗаписьКВрачу.Form.ФормаЗаписиПоДате" id="c8e3bae7-6ef5-4161-9e08-a0486d8e8525" configVersion="379509247c098e449d2fd8671a18e4ae00000000"/>
-		<Metadata name="DataProcessor.АРМ_ЗаписьКВрачу.Form.ФормаЗаписиПоДате.Form" id="c8e3bae7-6ef5-4161-9e08-a0486d8e8525.0" configVersion="83c121c5d9504641924e0ef37aa47cec00000000"/>
+		<Metadata name="DataProcessor.АРМ.Form.ФормаВыбораОпераций" id="ce009c7e-9ab3-4dca-b01e-4687421e349b" configVersion="0cc3a89bf920964d8b89172868d6a98000000000"/>
+		<Metadata name="DataProcessor.АРМ.Form.ФормаВыбораОпераций.Form" id="ce009c7e-9ab3-4dca-b01e-4687421e349b.0" configVersion="b828a261a9a0df4cbecdad615d7abbdd00000000"/>
+		<Metadata name="DataProcessor.АРМ_ЗаписьКВрачу" id="d247b68b-7b6c-4cb6-9d4c-6dba9df94745" configVersion="1375456b1dfafe47b1d79e7fed11f82200000000"/>
+		<Metadata name="DataProcessor.АРМ_ЗаписьКВрачу.Form.ФормаВыбораВидаЗаписи" id="104a8463-27e1-4c62-a06c-826cb9c93d93" configVersion="9a906d4e3fc602438fe3ea61d1f90d5800000000"/>
+		<Metadata name="DataProcessor.АРМ_ЗаписьКВрачу.Form.ФормаВыбораВидаЗаписи.Form" id="104a8463-27e1-4c62-a06c-826cb9c93d93.0" configVersion="ede4080253dfa04bb2eb42d5f09d844500000000"/>
+		<Metadata name="DataProcessor.АРМ_ЗаписьКВрачу.Form.ФормаЗаписиПоВрачу" id="81f9a044-bab0-4006-94ae-d8a78c345340" configVersion="65c4ea5f8d7c694ea5c2d0f1ae2da2c400000000"/>
+		<Metadata name="DataProcessor.АРМ_ЗаписьКВрачу.Form.ФормаЗаписиПоВрачу.Form" id="81f9a044-bab0-4006-94ae-d8a78c345340.0" configVersion="8f8fa3202df7254fa5c0a2953a91bff800000000"/>
+		<Metadata name="DataProcessor.АРМ_ЗаписьКВрачу.Form.ФормаЗаписиПоДате" id="c8e3bae7-6ef5-4161-9e08-a0486d8e8525" configVersion="4eb96eff0eccc247bc6e46bb90dbfd6300000000"/>
+		<Metadata name="DataProcessor.АРМ_ЗаписьКВрачу.Form.ФормаЗаписиПоДате.Form" id="c8e3bae7-6ef5-4161-9e08-a0486d8e8525.0" configVersion="1fa6eb34679d404bbdb6d78c9a8ef47500000000"/>
 		<Metadata name="DataProcessor.АРМ_ЗаписьКВрачу.Form.ФормаЗаписиПоНаправлению" id="d8ec42b9-dfa6-4467-a2a3-72a734d77dae" configVersion="8ae6a2c777b8984883c0ab4534a17eb200000000"/>
 		<Metadata name="DataProcessor.АРМ_ЗаписьКВрачу.Form.ФормаЗаписиПоНаправлению.Form" id="d8ec42b9-dfa6-4467-a2a3-72a734d77dae.0" configVersion="b58ff2a6bc1e54459422f0801966cabd00000000"/>
 		<Metadata name="DataProcessor.АРМ_ЗаписьКВрачу.Form.ФормаЗаписиПоПоследним" id="ab20ac3b-5b38-4aa3-8481-9a4b125bbc17" configVersion="058a9ad44e6bae438af10efa238ba9a000000000"/>
 		<Metadata name="DataProcessor.АРМ_ЗаписьКВрачу.Form.ФормаЗаписиПоПоследним.Form" id="ab20ac3b-5b38-4aa3-8481-9a4b125bbc17.0" configVersion="1ffff605ac3acd4786a93cf39fc0bfce00000000"/>
+		<Metadata name="DataProcessor.АРМ_ЗаписьКВрачу.Form.ФормаРезультатаЗаписи" id="a54c134e-58a0-4549-9f9b-2efe301633c2" configVersion="0189f2015de7ab46bc4532b3663cde7d00000000"/>
+		<Metadata name="DataProcessor.АРМ_ЗаписьКВрачу.Form.ФормаРезультатаЗаписи.Form" id="a54c134e-58a0-4549-9f9b-2efe301633c2.0" configVersion="c0da4f82ba90c44db2c9aacf50ec124200000000"/>
 		<Metadata name="InformationRegister.АвторизованныеПользователи" id="dcf4ffa5-e64f-47e1-945a-a4c5c1cfd4b0" configVersion="91d7fea02a98a44fba965000570be40a00000000">
 			<Metadata name="InformationRegister.АвторизованныеПользователи.Dimension.Пациент" id="78b6e962-4f70-4f98-92d8-4fc7cc644e9c"/>
 		</Metadata>

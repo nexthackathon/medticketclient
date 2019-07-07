@@ -1,12 +1,199 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.4">
-	<AutoCommandBar name="" id="-1"/>
+	<Title>
+		<v8:item>
+			<v8:lang>ru</v8:lang>
+			<v8:content>Выбор даты записи</v8:content>
+		</v8:item>
+	</Title>
+	<AutoTitle>false</AutoTitle>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<Events>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+	</Events>
+	<ChildItems>
+		<Table name="ТаблицаДат" id="4">
+			<Representation>List</Representation>
+			<TitleLocation>Top</TitleLocation>
+			<ChangeRowSet>false</ChangeRowSet>
+			<ChangeRowOrder>false</ChangeRowOrder>
+			<AutoInsertNewRow>true</AutoInsertNewRow>
+			<EnableStartDrag>true</EnableStartDrag>
+			<EnableDrag>true</EnableDrag>
+			<DataPath>ТаблицаДат</DataPath>
+			<Font ref="style:NormalTextFont" height="10" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Выберите дату записи врача</v8:content>
+				</v8:item>
+			</Title>
+			<TitleTextColor>style:FieldSelectionBackColor</TitleTextColor>
+			<TitleFont ref="style:NormalTextFont" height="10" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
+			<CommandSet>
+				<ExcludedCommand>Copy</ExcludedCommand>
+				<ExcludedCommand>SortListAsc</ExcludedCommand>
+				<ExcludedCommand>MoveUp</ExcludedCommand>
+				<ExcludedCommand>CancelSearch</ExcludedCommand>
+				<ExcludedCommand>OutputList</ExcludedCommand>
+				<ExcludedCommand>SelectAll</ExcludedCommand>
+				<ExcludedCommand>SortListDesc</ExcludedCommand>
+				<ExcludedCommand>CopyToClipboard</ExcludedCommand>
+				<ExcludedCommand>ShowRowRearrangement</ExcludedCommand>
+				<ExcludedCommand>Delete</ExcludedCommand>
+				<ExcludedCommand>EndEdit</ExcludedCommand>
+				<ExcludedCommand>Add</ExcludedCommand>
+				<ExcludedCommand>Change</ExcludedCommand>
+				<ExcludedCommand>Find</ExcludedCommand>
+				<ExcludedCommand>ShowMultipleSelection</ExcludedCommand>
+				<ExcludedCommand>MoveDown</ExcludedCommand>
+			</CommandSet>
+			<RowFilter xsi:nil="true"/>
+			<ContextMenu name="ТаблицаДатКонтекстноеМеню" id="5"/>
+			<AutoCommandBar name="ТаблицаДатКоманднаяПанель" id="6"/>
+			<ExtendedTooltip name="ТаблицаДатРасширеннаяПодсказка" id="7"/>
+			<SearchStringAddition name="ТаблицаДатСтрокаПоиска" id="8">
+				<AdditionSource>
+					<Item>ТаблицаДат</Item>
+					<Type>SearchStringRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="ТаблицаДатСтрокаПоискаКонтекстноеМеню" id="9"/>
+				<ExtendedTooltip name="ТаблицаДатСтрокаПоискаРасширеннаяПодсказка" id="10"/>
+			</SearchStringAddition>
+			<ViewStatusAddition name="ТаблицаДатСостояниеПросмотра" id="11">
+				<AdditionSource>
+					<Item>ТаблицаДат</Item>
+					<Type>ViewStatusRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="ТаблицаДатСостояниеПросмотраКонтекстноеМеню" id="12"/>
+				<ExtendedTooltip name="ТаблицаДатСостояниеПросмотраРасширеннаяПодсказка" id="13"/>
+			</ViewStatusAddition>
+			<SearchControlAddition name="ТаблицаДатУправлениеПоиском" id="14">
+				<AdditionSource>
+					<Item>ТаблицаДат</Item>
+					<Type>SearchControl</Type>
+				</AdditionSource>
+				<ContextMenu name="ТаблицаДатУправлениеПоискомКонтекстноеМеню" id="15"/>
+				<ExtendedTooltip name="ТаблицаДатУправлениеПоискомРасширеннаяПодсказка" id="16"/>
+			</SearchControlAddition>
+			<Events>
+				<Event name="Selection">ТаблицаДатВыбор</Event>
+			</Events>
+			<ChildItems>
+				<InputField name="ТаблицаДатДата" id="17">
+					<DataPath>ТаблицаДат.Дата</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ТаблицаДатДатаКонтекстноеМеню" id="18"/>
+					<ExtendedTooltip name="ТаблицаДатДатаРасширеннаяПодсказка" id="19"/>
+				</InputField>
+			</ChildItems>
+		</Table>
+		<LabelField name="СтрокаОписанияРезультата" id="20">
+			<DataPath>СтрокаОписанияРезультата</DataPath>
+			<TitleLocation>None</TitleLocation>
+			<AutoMaxWidth>false</AutoMaxWidth>
+			<ContextMenu name="СтрокаОписанияРезультатаКонтекстноеМеню" id="21"/>
+			<ExtendedTooltip name="СтрокаОписанияРезультатаРасширеннаяПодсказка" id="22"/>
+		</LabelField>
+		<CalendarField name="ДатаЗаписи" id="23">
+			<DataPath>ДатаЗаписи</DataPath>
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Укажите желаемую дату записи</v8:content>
+				</v8:item>
+			</Title>
+			<ContextMenu name="ДатаЗаписиКонтекстноеМеню" id="24"/>
+			<ExtendedTooltip name="ДатаЗаписиРасширеннаяПодсказка" id="25"/>
+			<Events>
+				<Event name="Selection">ДатаЗаписиВыбор</Event>
+			</Events>
+		</CalendarField>
+	</ChildItems>
 	<Attributes>
 		<Attribute name="Объект" id="1">
 			<Type>
 				<v8:Type>cfg:DataProcessorObject.АРМ_ЗаписьКВрачу</v8:Type>
 			</Type>
 			<MainAttribute>true</MainAttribute>
+		</Attribute>
+		<Attribute name="ДатаЗаписи" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Дата записи</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:dateTime</v8:Type>
+				<v8:DateQualifiers>
+					<v8:DateFractions>DateTime</v8:DateFractions>
+				</v8:DateQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="Врач" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Врач</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:CatalogRef.Врачи</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="ТаблицаДат" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Таблица дат</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>v8:ValueTable</v8:Type>
+			</Type>
+			<Columns>
+				<Column name="Дата" id="1">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Дата</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:dateTime</v8:Type>
+						<v8:DateQualifiers>
+							<v8:DateFractions>DateTime</v8:DateFractions>
+						</v8:DateQualifiers>
+					</Type>
+				</Column>
+			</Columns>
+		</Attribute>
+		<Attribute name="ТекущийПациент" id="5">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Текущий пациент</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:CatalogRef.Пациенты</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="СтрокаОписанияРезультата" id="6">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Строка описания результата</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
 		</Attribute>
 	</Attributes>
 </Form>

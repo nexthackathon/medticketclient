@@ -33,6 +33,7 @@
 			<Form>ФормаЗаписиПоДате</Form>
 			<Form>ФормаЗаписиПоНаправлению</Form>
 			<Form>ФормаЗаписиПоПоследним</Form>
+			<Form>ФормаРезультатаЗаписи</Form>
 		</ChildObjects>
 	</DataProcessor>
 </MetaDataObject>

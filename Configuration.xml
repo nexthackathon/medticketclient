@@ -124,6 +124,7 @@
 		<ChildObjects>
 			<Language>Русский</Language>
 			<CommonPicture>Лого</CommonPicture>
+			<CommonPicture>ОбщаяКартинка1</CommonPicture>
 			<SessionParameter>ТекущийПациент</SessionParameter>
 			<CommonModule>ОперацииWS</CommonModule>
 			<CommonModule>ОбменДаннымиПовтИсп</CommonModule>

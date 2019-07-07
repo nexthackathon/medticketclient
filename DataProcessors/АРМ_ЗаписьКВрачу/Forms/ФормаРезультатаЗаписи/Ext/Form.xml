@@ -1,0 +1,267 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.4">
+	<Title>
+		<v8:item>
+			<v8:lang>ru</v8:lang>
+			<v8:content>Результат</v8:content>
+		</v8:item>
+	</Title>
+	<AutoTitle>false</AutoTitle>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<Events>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+	</Events>
+	<ChildItems>
+		<UsualGroup name="ГруппаОсновная" id="22">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа основная</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа основная</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Group>Vertical</Group>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<BackColor>style:FieldBackColor</BackColor>
+			<ExtendedTooltip name="ГруппаОсновнаяРасширеннаяПодсказка" id="23"/>
+			<ChildItems>
+				<LabelDecoration name="Декорация1" id="1">
+					<AutoMaxWidth>false</AutoMaxWidth>
+					<HorizontalStretch>true</HorizontalStretch>
+					<TextColor>style:FieldSelectionBackColor</TextColor>
+					<Font ref="style:NormalTextFont" height="10" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
+					<Title formatted="false">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Подтвердить запись</v8:content>
+						</v8:item>
+					</Title>
+					<HorizontalAlign>Center</HorizontalAlign>
+					<ContextMenu name="Декорация1КонтекстноеМеню" id="2"/>
+					<ExtendedTooltip name="Декорация1РасширеннаяПодсказка" id="3"/>
+				</LabelDecoration>
+				<UsualGroup name="ГруппаДанныхЗаписи" id="4">
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа данных записи</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Height>5</Height>
+					<HorizontalStretch>true</HorizontalStretch>
+					<Representation>StrongSeparation</Representation>
+					<ExtendedTooltip name="ГруппаДанныхЗаписиРасширеннаяПодсказка" id="5"/>
+					<ChildItems>
+						<UsualGroup name="ГруппаЛево" id="12">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа лево</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа лево</v8:content>
+								</v8:item>
+							</ToolTip>
+							<Group>Vertical</Group>
+							<Representation>None</Representation>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="ГруппаЛевоРасширеннаяПодсказка" id="13"/>
+							<ChildItems>
+								<LabelField name="Врач" id="6">
+									<DataPath>Врач</DataPath>
+									<TitleLocation>None</TitleLocation>
+									<Font ref="style:NormalTextFont" height="10" kind="StyleItem"/>
+									<ContextMenu name="ВрачКонтекстноеМеню" id="7"/>
+									<ExtendedTooltip name="ВрачРасширеннаяПодсказка" id="8"/>
+								</LabelField>
+								<LabelField name="Специализация" id="9">
+									<DataPath>Специализация</DataPath>
+									<TitleLocation>None</TitleLocation>
+									<Font ref="style:NormalTextFont" height="10" kind="StyleItem"/>
+									<ContextMenu name="СпециализацияКонтекстноеМеню" id="10"/>
+									<ExtendedTooltip name="СпециализацияРасширеннаяПодсказка" id="11"/>
+								</LabelField>
+							</ChildItems>
+						</UsualGroup>
+						<UsualGroup name="ГруппаПраво" id="14">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа право</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа право</v8:content>
+								</v8:item>
+							</ToolTip>
+							<Representation>None</Representation>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="ГруппаПравоРасширеннаяПодсказка" id="15"/>
+							<ChildItems>
+								<LabelField name="ДатаПриема" id="16">
+									<DataPath>ДатаЗаписи</DataPath>
+									<TitleLocation>None</TitleLocation>
+									<Height>2</Height>
+									<Font ref="style:NormalTextFont" height="10" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
+									<ContextMenu name="ДатаПриемаКонтекстноеМеню" id="17"/>
+									<ExtendedTooltip name="ДатаПриемаРасширеннаяПодсказка" id="18"/>
+								</LabelField>
+							</ChildItems>
+						</UsualGroup>
+					</ChildItems>
+				</UsualGroup>
+				<LabelDecoration name="Декорация2" id="19">
+					<AutoMaxWidth>false</AutoMaxWidth>
+					<Height>2</Height>
+					<HorizontalStretch>true</HorizontalStretch>
+					<TextColor>style:FieldBackColor</TextColor>
+					<Font ref="style:NormalTextFont" height="10" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
+					<Title formatted="false">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Подтвердить</v8:content>
+						</v8:item>
+					</Title>
+					<GroupHorizontalAlign>Center</GroupHorizontalAlign>
+					<GroupVerticalAlign>Center</GroupVerticalAlign>
+					<Hyperlink>true</Hyperlink>
+					<HorizontalAlign>Center</HorizontalAlign>
+					<VerticalAlign>Center</VerticalAlign>
+					<BackColor>style:FieldSelectionBackColor</BackColor>
+					<ContextMenu name="Декорация2КонтекстноеМеню" id="20"/>
+					<ExtendedTooltip name="Декорация2РасширеннаяПодсказка" id="21"/>
+					<Events>
+						<Event name="Click">ПодтвердитьНажатие</Event>
+					</Events>
+				</LabelDecoration>
+				<CheckBoxField name="ПодписатьсяНаОповещение" id="24">
+					<DataPath>ПодписатьсяНаОповещение</DataPath>
+					<TitleTextColor>style:FieldSelectionBackColor</TitleTextColor>
+					<TitleFont ref="style:NormalTextFont" height="10" kind="StyleItem"/>
+					<TitleLocation>Right</TitleLocation>
+					<CheckBoxType>Auto</CheckBoxType>
+					<ContextMenu name="ПодписатьсяНаОповещениеКонтекстноеМеню" id="25"/>
+					<ExtendedTooltip name="ПодписатьсяНаОповещениеРасширеннаяПодсказка" id="26"/>
+				</CheckBoxField>
+				<LabelField name="СтрокаОписанияРезультата" id="30">
+					<DataPath>СтрокаОписанияРезультата</DataPath>
+					<TitleLocation>None</TitleLocation>
+					<AutoMaxWidth>false</AutoMaxWidth>
+					<Height>2</Height>
+					<HorizontalStretch>true</HorizontalStretch>
+					<TextColor>web:LimeGreen</TextColor>
+					<Font ref="style:NormalTextFont" height="11" bold="false" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
+					<ContextMenu name="СтрокаОписанияРезультатаКонтекстноеМеню" id="31"/>
+					<ExtendedTooltip name="СтрокаОписанияРезультатаРасширеннаяПодсказка" id="32"/>
+				</LabelField>
+			</ChildItems>
+		</UsualGroup>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:DataProcessorObject.АРМ_ЗаписьКВрачу</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+		</Attribute>
+		<Attribute name="Врач" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Врач</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:CatalogRef.Врачи</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="Специализация" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Специализация</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="ДатаЗаписи" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Дата записи</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:dateTime</v8:Type>
+				<v8:DateQualifiers>
+					<v8:DateFractions>DateTime</v8:DateFractions>
+				</v8:DateQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="ПодписатьсяНаОповещение" id="5">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Подписаться на оповещение</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="ТекущийПациент" id="6">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Текущий пациент</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:CatalogRef.Пациенты</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="ЖелаемаяДата" id="7">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Желаемая дата</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="СтрокаОписанияРезультата" id="8">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Строка описания результата</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+	</Attributes>
+</Form>
