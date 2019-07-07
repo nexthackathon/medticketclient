@@ -22,7 +22,7 @@
 		<Metadata name="CommonPicture.Лого.Picture" id="5cb5398b-7273-4b27-b174-1d747c54f70b.0" configVersion="71883ac4b8e46f418504268a4d8a5fea00000000"/>
 		<Metadata name="CommonPicture.ОбщаяКартинка1" id="31cab5f2-1b63-4a96-b342-1f66bb76e5aa" configVersion="9039d48acc29ce458b51eed4baf0474e00000000"/>
 		<Metadata name="CommonPicture.ОбщаяКартинка1.Picture" id="31cab5f2-1b63-4a96-b342-1f66bb76e5aa.0" configVersion="ce4d82cf3f16ac4e82153940052d14c200000000"/>
-		<Metadata name="Configuration.Хакатон_Клиент" id="6ae30800-265a-4508-8fa9-3203840d6ab2" configVersion="504fb2e93c6eb94d87ab9432c8080f3100000000"/>
+		<Metadata name="Configuration.Хакатон_Клиент" id="6ae30800-265a-4508-8fa9-3203840d6ab2" configVersion="7607ba9a5848d04bb205d38fa1910a4800000000"/>
 		<Metadata name="Configuration.Хакатон_Клиент.HomePageWorkArea" id="93c9a6e2-ae1e-4652-8403-112203a92329.8" configVersion="95cd2c238816b74fb6f0f0f62dd60ade00000000"/>
 		<Metadata name="Configuration.Хакатон_Клиент.SessionModule" id="93c9a6e2-ae1e-4652-8403-112203a92329.7" configVersion="fabcc6017f973547aa22bc7ac0f63bd500000000"/>
 		<Metadata name="Constant.АдресСервераСервиса" id="3ee697e8-4d1a-4ba3-b069-5473dc809ce4" configVersion="748b8d074eaae94b868e80156a6c249400000000"/>
@@ -30,8 +30,8 @@
 		<Metadata name="Constant.ПарольКСервису" id="aee19eb3-2f51-4f5b-a774-4159cb2d39de" configVersion="4c7a106dd30f0746902ca5eb5b368d0c00000000"/>
 		<Metadata name="Constant.ПользовательСервиса" id="d5b4c31f-667d-40b7-acaa-3da3e7963ee0" configVersion="01fbfe823723514295cffdd5015ffb2100000000"/>
 		<Metadata name="DataProcessor.АРМ" id="0d85db3b-8f8a-479d-bea6-6a9d49c07c6b" configVersion="d8f9008a32f14e4cbf05ba53b6f3f0e900000000"/>
-		<Metadata name="DataProcessor.АРМ.Form.ФормаВыбораОпераций" id="ce009c7e-9ab3-4dca-b01e-4687421e349b" configVersion="0cc3a89bf920964d8b89172868d6a98000000000"/>
-		<Metadata name="DataProcessor.АРМ.Form.ФормаВыбораОпераций.Form" id="ce009c7e-9ab3-4dca-b01e-4687421e349b.0" configVersion="b828a261a9a0df4cbecdad615d7abbdd00000000"/>
+		<Metadata name="DataProcessor.АРМ.Form.ФормаВыбораОпераций" id="ce009c7e-9ab3-4dca-b01e-4687421e349b" configVersion="abb28bd025186f4e8256d4128da26e0e00000000"/>
+		<Metadata name="DataProcessor.АРМ.Form.ФормаВыбораОпераций.Form" id="ce009c7e-9ab3-4dca-b01e-4687421e349b.0" configVersion="55e35e9d1a094c47b571898039e2383800000000"/>
 		<Metadata name="DataProcessor.АРМ_ЗаписьКВрачу" id="d247b68b-7b6c-4cb6-9d4c-6dba9df94745" configVersion="1375456b1dfafe47b1d79e7fed11f82200000000"/>
 		<Metadata name="DataProcessor.АРМ_ЗаписьКВрачу.Form.ФормаВыбораВидаЗаписи" id="104a8463-27e1-4c62-a06c-826cb9c93d93" configVersion="9a906d4e3fc602438fe3ea61d1f90d5800000000"/>
 		<Metadata name="DataProcessor.АРМ_ЗаписьКВрачу.Form.ФормаВыбораВидаЗаписи.Form" id="104a8463-27e1-4c62-a06c-826cb9c93d93.0" configVersion="ede4080253dfa04bb2eb42d5f09d844500000000"/>
@@ -45,6 +45,9 @@
 		<Metadata name="DataProcessor.АРМ_ЗаписьКВрачу.Form.ФормаЗаписиПоПоследним.Form" id="ab20ac3b-5b38-4aa3-8481-9a4b125bbc17.0" configVersion="1ffff605ac3acd4786a93cf39fc0bfce00000000"/>
 		<Metadata name="DataProcessor.АРМ_ЗаписьКВрачу.Form.ФормаРезультатаЗаписи" id="a54c134e-58a0-4549-9f9b-2efe301633c2" configVersion="0189f2015de7ab46bc4532b3663cde7d00000000"/>
 		<Metadata name="DataProcessor.АРМ_ЗаписьКВрачу.Form.ФормаРезультатаЗаписи.Form" id="a54c134e-58a0-4549-9f9b-2efe301633c2.0" configVersion="c0da4f82ba90c44db2c9aacf50ec124200000000"/>
+		<Metadata name="DataProcessor.АРМ_Рецепты" id="c87ef189-bc40-475e-a6ab-b0b0bf7ac883" configVersion="4c39658799ccae45b527f57a6d1e43e300000000"/>
+		<Metadata name="DataProcessor.АРМ_Рецепты.Form.ФормаДанныхПоРецептам" id="3b241816-d8c2-45c6-ad9f-865b0b28da9a" configVersion="897b02cb254afd4881264f2cd8eeb64c00000000"/>
+		<Metadata name="DataProcessor.АРМ_Рецепты.Form.ФормаДанныхПоРецептам.Form" id="3b241816-d8c2-45c6-ad9f-865b0b28da9a.0" configVersion="2cddb81fe5d8684c82f0f0f85e1bb7c900000000"/>
 		<Metadata name="InformationRegister.АвторизованныеПользователи" id="dcf4ffa5-e64f-47e1-945a-a4c5c1cfd4b0" configVersion="91d7fea02a98a44fba965000570be40a00000000">
 			<Metadata name="InformationRegister.АвторизованныеПользователи.Dimension.Пациент" id="78b6e962-4f70-4f98-92d8-4fc7cc644e9c"/>
 		</Metadata>

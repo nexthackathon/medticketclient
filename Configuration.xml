@@ -138,6 +138,7 @@
 			<Catalog>Врачи</Catalog>
 			<DataProcessor>АРМ</DataProcessor>
 			<DataProcessor>АРМ_ЗаписьКВрачу</DataProcessor>
+			<DataProcessor>АРМ_Рецепты</DataProcessor>
 			<InformationRegister>АвторизованныеПользователи</InformationRegister>
 			<InformationRegister>ФотоВрачей</InformationRegister>
 		</ChildObjects>

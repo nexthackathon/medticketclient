@@ -120,6 +120,9 @@
 					<BackColor>style:FieldSelectionBackColor</BackColor>
 					<ContextMenu name="МоиРецептыДекорацияКонтекстноеМеню" id="19"/>
 					<ExtendedTooltip name="МоиРецептыДекорацияРасширеннаяПодсказка" id="20"/>
+					<Events>
+						<Event name="Click">МоиРецептыДекорацияНажатие</Event>
+					</Events>
 				</LabelDecoration>
 			</ChildItems>
 		</UsualGroup>
