@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.4">
+	<DataProcessor uuid="d247b68b-7b6c-4cb6-9d4c-6dba9df94745">
+		<InternalInfo>
+			<xr:GeneratedType name="DataProcessorObject.АРМ_ЗаписьКВрачу" category="Object">
+				<xr:TypeId>3b327bad-936b-4792-ae2c-32c29444b82e</xr:TypeId>
+				<xr:ValueId>48c766d6-cd42-4b88-b227-9183d024ebe0</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DataProcessorManager.АРМ_ЗаписьКВрачу" category="Manager">
+				<xr:TypeId>508634b5-62de-4c21-a14b-53667608c05b</xr:TypeId>
+				<xr:ValueId>43558371-23dd-4f91-8dc8-cbc1a93a9a25</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>АРМ_ЗаписьКВрачу</Name>
+			<Synonym>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>АРМ запись к врачу</v8:content>
+				</v8:item>
+			</Synonym>
+			<Comment/>
+			<UseStandardCommands>true</UseStandardCommands>
+			<DefaultForm>DataProcessor.АРМ_ЗаписьКВрачу.Form.ФормаВыбораВидаЗаписи</DefaultForm>
+			<AuxiliaryForm/>
+			<IncludeHelpInContents>false</IncludeHelpInContents>
+			<ExtendedPresentation/>
+			<Explanation/>
+		</Properties>
+		<ChildObjects>
+			<Form>ФормаВыбораВидаЗаписи</Form>
+			<Form>ФормаЗаписиПоВрачу</Form>
+			<Form>ФормаЗаписиПоДате</Form>
+			<Form>ФормаЗаписиПоНаправлению</Form>
+			<Form>ФормаЗаписиПоПоследним</Form>
+		</ChildObjects>
+	</DataProcessor>
+</MetaDataObject>
